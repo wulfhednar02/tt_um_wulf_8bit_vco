@@ -13,9 +13,6 @@ jobs:
         with:
           submodules: recursive
 
-      - name: Build GDS
-        uses: TinyTapeout/tt-gds-action@tt05
-
       - name: Create and publish the GDS artifact
         uses: TinyTapeout/tt-gds-action/custom_gds@tt05
         with: 
