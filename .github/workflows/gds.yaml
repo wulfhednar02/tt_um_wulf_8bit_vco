@@ -20,5 +20,5 @@ jobs:
         uses: TinyTapeout/tt-gds-action/custom_gds@tt05
         with: 
           top_module: tt_um_wulf_8bit_vco
-          gds_path: tt_um_wulf_8bit_vco.gds
-          lef_path: tt_um_wulf_8bit_vco.lef
+          gds_path: src/tt_um_wulf_8bit_vco.gds
+          lef_path: src/tt_um_wulf_8bit_vco.lef
