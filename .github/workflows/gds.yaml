@@ -16,11 +16,9 @@ jobs:
       - name: Build GDS
         uses: TinyTapeout/tt-gds-action@tt05
 
-  viewer:
-    needs: gds
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write      # to deploy to Pages
-      id-token: write   # to verify the deployment originates from an appropriate source
-    steps:
-      - uses: TinyTapeout/tt-gds-action/viewer@tt05
+      - name: Create and publish the GDS artifact
+        uses: TinyTapeout/tt-gds-action/custom_gds@tt05
+        with: 
+          top_module: tt_um_wulf_8bit_vco
+          gds_path: gds/tt_um_wulf_8bit_vco.gds
+          lef_path: lef/tt_um_wulf_8bit_vco.lef
