@@ -40,14 +40,14 @@ documentation:
 
 # A description of what the inputs do (e.g. red button, SPI CLK, SPI MOSI, etc).
   inputs:               
-    - DAC bit 7
-    - DAC bit 6
-    - DAC bit 5
-    - DAC bit 4 
+    - DAC bit 0
+    - DAC bit 1
+    - DAC bit 2
     - DAC bit 3 
-    - DAC bit 2  
-    - DAC bit 1 
-    - DAC bit 0 
+    - DAC bit 4 
+    - DAC bit 5  
+    - DAC bit 6 
+    - DAC bit 7 
 # A description of what the outputs do (e.g. status LED, SPI MISO, etc)
   outputs:
     - VCO Output (uo_out[0])
