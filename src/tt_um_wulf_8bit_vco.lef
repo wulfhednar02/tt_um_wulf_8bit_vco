@@ -2,9 +2,9 @@ VERSION 5.7 ;
   NOWIREEXTENSIONATPIN ON ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
-MACRO tt_um_matt_divider_test
+MACRO tt_um_wulf_8bit_vco
   CLASS BLOCK ;
-  FOREIGN tt_um_matt_divider_test ;
+  FOREIGN tt_um_wulf_8bit_vco ;
   ORIGIN 0.000 0.000 ;
   SIZE 157.320 BY 111.520 ;
   PIN clk
@@ -476,6 +476,6 @@ MACRO tt_um_matt_divider_test
         RECT 83.090 97.550 86.500 100.750 ;
         RECT 87.460 94.840 113.050 100.460 ;
   END
-END tt_um_matt_divider_test
+END tt_um_wulf_8bit_vco
 END LIBRARY
 
