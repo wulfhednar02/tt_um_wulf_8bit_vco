@@ -19,3 +19,4 @@ jobs:
           top_module: tt_um_wulf_8bit_vco
           gds_path: src/tt_um_wulf_8bit_vco.GDS
           lef_path: src/tt_um_wulf_8bit_vco.lef
+          verilog_path: src/tt_um_wulf_8bit_vco.v
