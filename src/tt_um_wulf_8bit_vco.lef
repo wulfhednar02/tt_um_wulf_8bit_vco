@@ -2,6 +2,36 @@ VERSION 5.7 ;
   NOWIREEXTENSIONATPIN ON ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
+MACRO tt_um_template
+  CLASS BLOCK ;
+  FOREIGN tt_um_template ;
+  ORIGIN -21.620 -111.020 ;
+  SIZE 115.920 BY 0.001 ;
+END tt_um_template
+MACRO pin_connect
+  CLASS BLOCK ;
+  FOREIGN pin_connect ;
+  ORIGIN 0.005 0.000 ;
+  SIZE 0.380 BY 2.592 ;
+END pin_connect
+MACRO driver
+  CLASS BLOCK ;
+  FOREIGN driver ;
+  ORIGIN -205.776 -200.205 ;
+  SIZE 17.424 BY 3.200 ;
+END driver
+MACRO dac_8bit
+  CLASS BLOCK ;
+  FOREIGN dac_8bit ;
+  ORIGIN 0.350 0.090 ;
+  SIZE 7.620 BY 25.350 ;
+END dac_8bit
+MACRO inv_strvd
+  CLASS BLOCK ;
+  FOREIGN inv_strvd ;
+  ORIGIN 20.590 0.789 ;
+  SIZE 41.205 BY 12.955 ;
+END inv_strvd
 MACRO tt_um_wulf_8bit_vco
   CLASS BLOCK ;
   FOREIGN tt_um_wulf_8bit_vco ;
